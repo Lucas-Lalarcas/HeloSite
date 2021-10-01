@@ -1,0 +1,105 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#000000;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#logo {
+    width:23vw;
+}
+
+#patrocinio {
+    width:7vw
+}
+
+.logos {
+    width:85vw;
+    padding: 3vh 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {display:flex; align-items: center; justify-content: center;} 
+
+header ul a {color:white; text-decoration: none;}
+
+li{ transition:.3s;margin: 0 1.5vw; padding:1vh 1.5vw; font-size: 1.3rem; background-color:rgba(255,255,255,0.2); border-radius: 1vh;}
+
+li:hover{
+    margin: 0 1vw; padding:1vh 2vw; background-color:rgba(255,255,255,0.4); cursor:pointer;
+}
+#prim {list-style: none;}
+
+.eba {width:85vw; margin:5vw auto 0 auto; display: flex; height:50vh; align-items: center;}
+
+.title {width:50%; height:40vh}
+
+.title h1 {text-shadow: 0px 0px 24px rgba(255,116,31); font-size:2.5vw}
+
+.search {background-color:white; width:50%; display: flex; justify-content: space-between; align-items: center; border-radius:2vh; padding: 0 1vw; margin-top:10vh}
+
+.search input {border:none;padding:2vh; width:90%}
+
+.search i {color:gray}
+
+.trailer {width:50%}
+
+iframe {border-radius: 2vw; width:100%;}
+
+.gradiente {background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); position:absolute; width:100vw; height:15vh; bottom:23vh}
+
+.movies{
+    min-width:16vw;
+    margin:2vw;
+    height:23vw;
+    display:block;
+    border-radius: 1vw;
+    background-color: orange;
+    transition:.3s
+}
+
+.list-movies{width:92.5vw; overflow-x: scroll; margin-left: 7.5vw; display: flex;}
+
+.movies {background-repeat: no-repeat; background-size: cover;}
+
+p {margin: 0 0 3vh 7.5vw; font-weight: 200; font-size: 1.5rem;}
+
+hr{margin-left:7.5vw;background-color:orange; color:orange}
+
+.movies:hover {
+    width:18vw;
+    height:25vw;
+    margin:0;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: #ff830f #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff830f;
+    border-radius: 40px;
+    border: 3px solid #000000;
+  }
