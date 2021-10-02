@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color:#000000;
+  background: rgb(255,119,0);
+  background: linear-gradient(0deg, rgba(255,119,0,1) 0%, rgba(0,0,0,1) 9%);
     color:white;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -75,6 +76,9 @@ p {margin: 0 0 3vh 7.5vw; font-weight: 200; font-size: 1.5rem;}
 
 hr{margin-left:7.5vw;background-color:orange; color:orange}
 
+--placeholder{color:orange}
+.invisivel {display:none}
+
 .movies:hover {
     width:18vw;
     height:25vw;
@@ -96,6 +100,7 @@ hr{margin-left:7.5vw;background-color:orange; color:orange}
 
   *::-webkit-scrollbar-track {
     background: #000000;
+    border-radius: 40px;
   }
 
   *::-webkit-scrollbar-thumb {
