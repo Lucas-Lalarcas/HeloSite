@@ -70,7 +70,7 @@ iframe {border-radius: 2vw; width:100%;}
 
 .list-movies{width:92.5vw; overflow-x: scroll; margin-left: 7.5vw; display: flex;}
 
-.movies {background-repeat: no-repeat; background-size: cover;}
+.movies {background-repeat: no-repeat; background-size: cover; cursor: pointer;}
 
 p {margin: 0 0 3vh 7.5vw; font-weight: 200; font-size: 1.5rem;}
 
