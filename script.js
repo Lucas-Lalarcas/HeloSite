@@ -24,10 +24,10 @@ var canwe = true;
 var base = [];
 
 btnmais.addEventListener("click", function(){
-    if(tela.innerHTML == ""){window.alert("digite antes de somar!")}else{
+    if(canwe){{if(tela.innerHTML == ""){window.alert("digite antes de somar!")}else{
     base.push(parseInt(tela.innerHTML) );
     tela.innerHTML = "";}
-});
+}}});
 
 btnreset.addEventListener("click", function(){
     if(tela.innerHTML == ""){window.alert("digite antes de resetar")}else{
@@ -42,6 +42,7 @@ btnreset.addEventListener("click", function(){
 
 
 btnigual.addEventListener("click", function(){
+    if(canwe){
     if(tela.innerHTML == ""){window.alert("digite antes de saber o resultado!")}else{
         base.push(parseInt(tela.innerHTML) *1);
         tela.innerHTML = "";}
@@ -50,7 +51,7 @@ btnigual.addEventListener("click", function(){
         }
         tela.innerHTML = "Resultado = "+resultado
         canwe = false;
-});
+}});
 
 
 btn1.addEventListener("click", function(){
