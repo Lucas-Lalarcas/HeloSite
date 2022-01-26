@@ -47,12 +47,14 @@ button:hover{background-color: rgb(255, 77, 172); color:white; }
 
 .fim{font-size: 4rem; line-height: 100%; background-color: rgb(255, 0, 136); color:white}
 
-.visor{display:flex; flex-direction:row-reverse;background-color:rgb(255, 0, 136); border-radius: 2rem; margin-bottom: 2rem; padding:0.5rem 0 0 1rem; box-sizing: border-box; min-height: 3rem;  max-height:3rem;word-wrap: break-word}
+.visor{display:flex; flex-direction:row-reverse;background-color:rgb(255, 0, 136); border-radius: 2rem; margin-bottom: 1rem; padding:0.5rem 0 0 1rem; box-sizing: border-box; min-height: 3rem;  max-height:3rem;word-wrap: break-word}
 
 h1{color:white; margin-right: 1rem; }
 
 
-.cima {font-size: 2rem; height:50px}
+.cima {font-size: 2rem;}
+
+.item{height:50px; margin-bottom: 1rem;}
 
 #reset {font-size: 1.5rem;}
 
