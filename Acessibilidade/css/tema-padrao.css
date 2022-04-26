@@ -10,12 +10,13 @@
 }
 
 
-.first {  height:100vh;
-  background-image:url('bg-intro.jpg');
-   background-size: cover;
-    background-position: center;}
 
     .first {  height:100vh; color:#f5e7ff;}
+    
+.first {  height:100vh;
+  background-image:url("bg-intro.jpg");
+   background-size: cover;
+    background-position: center;}
 
 
 li[aria-hidden='true'] { display: none; }

@@ -163,10 +163,7 @@ main h1{
     color:#006171;
 }
 
-#ibirapuera{
-    background-image:url("ibirapuera.jpg");
-    margin-left: 1vw;
-}
+
 
 .local:hover, .local:focus{
     transform: scale(1.03);    
@@ -185,4 +182,9 @@ ul{display: flex;}
 
     footer{margin-top: 5vh;}
 
+}
+
+#ibirapuera{
+    background-image:url("ibirapuera.jpg");
+    margin-left: 1vw;
 }
