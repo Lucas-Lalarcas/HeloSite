@@ -164,7 +164,7 @@ main h1{
 }
 
 #ibirapuera{
-    background-image:url("/img/ibirapuera.jpg");
+    background-image:url("../img/ibirapuera.jpg");
     margin-left: 1vw;
 }
 
